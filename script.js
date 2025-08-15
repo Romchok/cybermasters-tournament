@@ -1,4 +1,4 @@
-// CyberHub Dota 2 Tournament - JavaScript
+// CyberMasters Dota 2 Tournament - JavaScript
 
 // Countdown Timer Function
 function updateCountdown() {
@@ -47,7 +47,7 @@ function showEventStartedMessage() {
     });
 }
 
-// Chat Widget Toggle
+// Telegram Widget Toggle
 function toggleChat() {
     const chatPanel = document.getElementById('chat-panel');
     chatPanel.classList.toggle('hidden');
@@ -58,7 +58,7 @@ function toggleChat() {
     }
 }
 
-// Close chat when clicking outside
+// Close telegram widget when clicking outside
 document.addEventListener('click', function(event) {
     const chatWidget = document.getElementById('chat-widget');
     const chatPanel = document.getElementById('chat-panel');

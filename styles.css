@@ -102,7 +102,7 @@
     transform: scale(1.2) rotate(5deg);
 }
 
-/* Chat Widget Animation */
+/* Telegram Widget Animation */
 #chat-widget {
     animation: float 3s ease-in-out infinite;
 }
